@@ -1,0 +1,108 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (min-width: 1000px) {
+    .hey{
+        font-size: 50px; 
+        font-weight: 200;
+        font-variant: inherit;
+        font-style: initial; 
+        padding-left: 40%;
+    }
+    .image{
+       padding-left: 45%;
+       padding-bottom: 5%;
+    
+    }
+    .button{
+        padding-top: 5%;
+        
+        border-radius:5%;
+        background-color: white;
+        border: 2%;
+        text-align: center;
+        font-size: 100%;
+        padding: 1%;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 0.2%;
+        height: 50px;
+        width: 100px;
+       
+      color: black;
+    
+    }
+    .div1{
+        padding-top: 5%;
+        padding-left: 48%;
+        
+    }
+    .div2{
+        padding-left: 35%;
+    }
+   .input{
+       
+       width: 50%;
+   }
+   .love{
+    font-size: 100px;
+    font-weight: 200;
+}
+.love1{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+}
+    
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 700px) {
+
+    .hey{
+        font-size: 50px; 
+        font-weight: 200;
+        font-variant: inherit;
+        font-style: initial; 
+    }
+    .image{
+       padding-left: 20%;
+       padding-bottom: 8%;
+    
+    }
+    .button{
+        padding-top: 5%;
+        
+        border-radius:5%;
+        background-color: white;
+        border: 2%;
+        text-align: center;
+        font-size: 100%;
+        padding: 1%;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 0.2%;
+        height: 50px;
+        width: 100px;
+       
+      color: black;
+    
+    }
+    .div1{
+        padding-top: 5%;
+        padding-left: 10%;
+        
+    }
+    .div2{
+        padding-left: 10%;
+    }
+   .input{
+       
+       width: 80%;
+   }
+   .love{
+       font-size: 50px;
+   }
+   .love1{
+    padding-top: 25%;
+    padding-left: 5%;
+}
+}
+
+
